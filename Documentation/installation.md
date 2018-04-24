@@ -2,7 +2,7 @@
 
 ### Manual Install
 
-1. Clone [Parade](https://github.com/HelloElephant/Parade.git) repositories
+1. Clone the [Parade](https://github.com/HelloElephant/Parade.git) repository
 2. Add the contents of ***/Parade/Sources/***
 
 
@@ -12,7 +12,7 @@
 1. Edit the project's podfile, and save
 
 ```
-pod 'Parade', :git => 'https://github.com/HelloElephant/Parade.git', :tag => '0.2.0'
+pod 'Parade', :git => 'https://github.com/HelloElephant/Parade.git', :tag => '1.0.0'
 ```
 2. Install Parade by running
 
@@ -31,7 +31,7 @@ The installation instruction below for iOS and AppleTV
 ```
 
 #Parade
-git "https://github.com/HelloElephant/Parade.git" >= 0.2.0
+git "https://github.com/HelloElephant/Parade.git" >= 1.0.0
 ```
 2. Run `carthage update`. This will fetch dependencies into a [Carthage/Checkouts][] folder, then build each one.
 3. In the application targets’ “General” settings tab, in the “Embedded Binaries” section, drag and drop each framework for use from the Carthage/Build folder on disk.
