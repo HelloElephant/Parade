@@ -12,7 +12,7 @@ import UIKit
 
 class VerticalAnimatableView : UIView, PDAnimatableType {
     override init(frame: CGRect) { super.init(frame: frame) }
-    required init?(coder aDecoder: NSCoder) { super.init(coder: aDecoder) }
+    required init?(coder aDecoder: NSCoder) { return nil }
     
     func configuredAnimator() -> PDAnimator {
         
@@ -29,7 +29,7 @@ class VerticalAnimatableView : UIView, PDAnimatableType {
 class HorizontalAnimatableView : UIView, PDAnimatableType {
     
     override init(frame: CGRect) { super.init(frame: frame) }
-    required init?(coder aDecoder: NSCoder) { super.init(coder: aDecoder) }
+    required init?(coder aDecoder: NSCoder) { return nil }
     
     func configuredAnimator() -> PDAnimator {
         return PDAnimator.newHorizontalAnimator { (animator) in

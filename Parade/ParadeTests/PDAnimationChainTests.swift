@@ -14,7 +14,13 @@ class PDAnimatorChainTests: XCTestCase
     func testAttachedAnimationViewInterpolation()
     {
         let view = UIView(frame: CGRect(x: 0.0, y: 0.0, width: 200, height: 200))
+        
+      
         let attachedAnimatableView = VerticalAnimatableView(frame: CGRect(x: 0.0, y: 0.0, width: 200, height: 200))
+
+        let _ = VerticalAnimatableView(coder: NSCoder())
+        let _ = HorizontalAnimatableView(coder: NSCoder())
+        
         
         view.center = CGPoint(x : 200, y : 200)
         view.layer.shadowOffset = CGSize(width:200, height:200)

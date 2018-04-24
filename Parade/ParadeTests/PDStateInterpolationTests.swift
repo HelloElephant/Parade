@@ -366,11 +366,7 @@ class PDStateInterpolationTests: XCTestCase
         XCTAssert(view.layer.transform.m44 == 0.5,
                   "[testVerticalAnimationInterpolation] - view horizontalRightCenter transform 3d m44 : \(view.layer.transform) is incorrectly calculated")
     
-        if let cachedAnimation = view.cachedProgressAnimator
-        {
-            XCTAssert(cachedAnimation.animatedViews.count == 1, "[testHorizonalAnimationInterpolation] - incorrect animabion count")
-            XCTAssert(cachedAnimation.animatedViews[0].fromState?.animatableProperties.count == 5, "[testHorizonalAnimationInterpolation] - incorrect animabion property count")
-        }
+
     }
     
     func testVerticalAnimationStateInterpolation()
