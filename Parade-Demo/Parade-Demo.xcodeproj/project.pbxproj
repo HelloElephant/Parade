@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1345A977208F88F70043FAC4 /* PDAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345A96A208F88F60043FAC4 /* PDAnimationView.swift */; };
+		1345A978208F88F70043FAC4 /* PDAnimationViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345A96B208F88F60043FAC4 /* PDAnimationViewState.swift */; };
+		1345A979208F88F70043FAC4 /* PDAnimatableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345A96C208F88F60043FAC4 /* PDAnimatableProperty.swift */; };
+		1345A97A208F88F70043FAC4 /* PDAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345A96D208F88F60043FAC4 /* PDAnimator.swift */; };
+		1345A97B208F88F70043FAC4 /* PDAnimatablePropertyMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345A96F208F88F60043FAC4 /* PDAnimatablePropertyMaker.swift */; };
+		1345A97C208F88F70043FAC4 /* PDAnimationMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345A970208F88F60043FAC4 /* PDAnimationMaker.swift */; };
+		1345A97D208F88F70043FAC4 /* PDAnimationViewMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345A971208F88F60043FAC4 /* PDAnimationViewMaker.swift */; };
+		1345A97E208F88F70043FAC4 /* PDDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345A972208F88F60043FAC4 /* PDDefinitions.swift */; };
+		1345A97F208F88F70043FAC4 /* CoreGraphics+Parade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345A974208F88F60043FAC4 /* CoreGraphics+Parade.swift */; };
+		1345A980208F88F70043FAC4 /* UIScrollView+Parade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345A975208F88F60043FAC4 /* UIScrollView+Parade.swift */; };
+		1345A981208F88F70043FAC4 /* UIView+Parade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345A976208F88F60043FAC4 /* UIView+Parade.swift */; };
+		134AC37020634D1F00A4DC19 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134AC36F20634D1E00A4DC19 /* UIColor+Hex.swift */; };
+		1367CE052088E04F00F3D2A5 /* PagingCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1367CE042088E04F00F3D2A5 /* PagingCollectionViewFlowLayout.swift */; };
+		13B9D0F5207E71BE00BCEC3E /* ParallaxImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B9D0E9207E71BE00BCEC3E /* ParallaxImageViewController.swift */; };
+		13B9D0F6207E71BE00BCEC3E /* ParallaxImageAppearCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B9D0EB207E71BE00BCEC3E /* ParallaxImageAppearCollectionViewCell.swift */; };
+		13B9D0F7207E71BE00BCEC3E /* ParallaxImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B9D0EC207E71BE00BCEC3E /* ParallaxImageCollectionViewCell.swift */; };
+		13B9D0F8207E71BE00BCEC3E /* ParallaxDoubleImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B9D0ED207E71BE00BCEC3E /* ParallaxDoubleImageCollectionViewCell.swift */; };
+		13B9D0F9207E71BE00BCEC3E /* ParallaxScaleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B9D0EE207E71BE00BCEC3E /* ParallaxScaleCollectionViewCell.swift */; };
+		13B9D0FA207E71BE00BCEC3E /* ParallaxTheEndCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B9D0EF207E71BE00BCEC3E /* ParallaxTheEndCollectionViewCell.swift */; };
+		13B9D0FB207E71BE00BCEC3E /* ParallaxIntroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B9D0F0207E71BE00BCEC3E /* ParallaxIntroCollectionViewCell.swift */; };
+		13B9D0FC207E71BE00BCEC3E /* ParallaxImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B9D0F2207E71BE00BCEC3E /* ParallaxImageView.swift */; };
+		13B9D0FD207E71BE00BCEC3E /* ProgressDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B9D0F3207E71BE00BCEC3E /* ProgressDotView.swift */; };
+		13E8D94F2062A70700EFD17F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E8D94D2062A70700EFD17F /* LaunchScreen.storyboard */; };
+		13E8D9612062A75E00EFD17F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8D9572062A75E00EFD17F /* AppDelegate.swift */; };
+		13EDEB9520755B1400622FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13EDEB9420755B1400622FC8 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1345A96A208F88F60043FAC4 /* PDAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDAnimationView.swift; sourceTree = "<group>"; };
+		1345A96B208F88F60043FAC4 /* PDAnimationViewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDAnimationViewState.swift; sourceTree = "<group>"; };
+		1345A96C208F88F60043FAC4 /* PDAnimatableProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDAnimatableProperty.swift; sourceTree = "<group>"; };
+		1345A96D208F88F60043FAC4 /* PDAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDAnimator.swift; sourceTree = "<group>"; };
+		1345A96F208F88F60043FAC4 /* PDAnimatablePropertyMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDAnimatablePropertyMaker.swift; sourceTree = "<group>"; };
+		1345A970208F88F60043FAC4 /* PDAnimationMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDAnimationMaker.swift; sourceTree = "<group>"; };
+		1345A971208F88F60043FAC4 /* PDAnimationViewMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDAnimationViewMaker.swift; sourceTree = "<group>"; };
+		1345A972208F88F60043FAC4 /* PDDefinitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDDefinitions.swift; sourceTree = "<group>"; };
+		1345A974208F88F60043FAC4 /* CoreGraphics+Parade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreGraphics+Parade.swift"; sourceTree = "<group>"; };
+		1345A975208F88F60043FAC4 /* UIScrollView+Parade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Parade.swift"; sourceTree = "<group>"; };
+		1345A976208F88F60043FAC4 /* UIView+Parade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Parade.swift"; sourceTree = "<group>"; };
+		134AC36F20634D1E00A4DC19 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		1367CE042088E04F00F3D2A5 /* PagingCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		13B9D0E9207E71BE00BCEC3E /* ParallaxImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxImageViewController.swift; sourceTree = "<group>"; };
+		13B9D0EB207E71BE00BCEC3E /* ParallaxImageAppearCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxImageAppearCollectionViewCell.swift; sourceTree = "<group>"; };
+		13B9D0EC207E71BE00BCEC3E /* ParallaxImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		13B9D0ED207E71BE00BCEC3E /* ParallaxDoubleImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxDoubleImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		13B9D0EE207E71BE00BCEC3E /* ParallaxScaleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxScaleCollectionViewCell.swift; sourceTree = "<group>"; };
+		13B9D0EF207E71BE00BCEC3E /* ParallaxTheEndCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxTheEndCollectionViewCell.swift; sourceTree = "<group>"; };
+		13B9D0F0207E71BE00BCEC3E /* ParallaxIntroCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxIntroCollectionViewCell.swift; sourceTree = "<group>"; };
+		13B9D0F2207E71BE00BCEC3E /* ParallaxImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxImageView.swift; sourceTree = "<group>"; };
+		13B9D0F3207E71BE00BCEC3E /* ProgressDotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressDotView.swift; sourceTree = "<group>"; };
+		13E8D9412062A70700EFD17F /* Parade-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parade-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E8D94E2062A70700EFD17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13E8D9502062A70700EFD17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E8D9572062A75E00EFD17F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13EDEB9420755B1400622FC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13E8D93E2062A70700EFD17F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1345A968208F88F60043FAC4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1345A969208F88F60043FAC4 /* Parade */,
+				1345A96E208F88F60043FAC4 /* ParadeMaker */,
+				1345A972208F88F60043FAC4 /* PDDefinitions.swift */,
+				1345A973208F88F60043FAC4 /* ParadeExtensions */,
+			);
+			name = Sources;
+			path = ../Sources;
+			sourceTree = "<group>";
+		};
+		1345A969208F88F60043FAC4 /* Parade */ = {
+			isa = PBXGroup;
+			children = (
+				1345A96A208F88F60043FAC4 /* PDAnimationView.swift */,
+				1345A96B208F88F60043FAC4 /* PDAnimationViewState.swift */,
+				1345A96C208F88F60043FAC4 /* PDAnimatableProperty.swift */,
+				1345A96D208F88F60043FAC4 /* PDAnimator.swift */,
+			);
+			path = Parade;
+			sourceTree = "<group>";
+		};
+		1345A96E208F88F60043FAC4 /* ParadeMaker */ = {
+			isa = PBXGroup;
+			children = (
+				1345A96F208F88F60043FAC4 /* PDAnimatablePropertyMaker.swift */,
+				1345A970208F88F60043FAC4 /* PDAnimationMaker.swift */,
+				1345A971208F88F60043FAC4 /* PDAnimationViewMaker.swift */,
+			);
+			path = ParadeMaker;
+			sourceTree = "<group>";
+		};
+		1345A973208F88F60043FAC4 /* ParadeExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				1345A974208F88F60043FAC4 /* CoreGraphics+Parade.swift */,
+				1345A975208F88F60043FAC4 /* UIScrollView+Parade.swift */,
+				1345A976208F88F60043FAC4 /* UIView+Parade.swift */,
+			);
+			path = ParadeExtensions;
+			sourceTree = "<group>";
+		};
+		13B9D0EA207E71BE00BCEC3E /* ParallaxCells */ = {
+			isa = PBXGroup;
+			children = (
+				13B9D0F1207E71BE00BCEC3E /* Views */,
+				13B9D0F0207E71BE00BCEC3E /* ParallaxIntroCollectionViewCell.swift */,
+				13B9D0EE207E71BE00BCEC3E /* ParallaxScaleCollectionViewCell.swift */,
+				13B9D0ED207E71BE00BCEC3E /* ParallaxDoubleImageCollectionViewCell.swift */,
+				13B9D0EC207E71BE00BCEC3E /* ParallaxImageCollectionViewCell.swift */,
+				13B9D0EB207E71BE00BCEC3E /* ParallaxImageAppearCollectionViewCell.swift */,
+				13B9D0EF207E71BE00BCEC3E /* ParallaxTheEndCollectionViewCell.swift */,
+			);
+			path = ParallaxCells;
+			sourceTree = "<group>";
+		};
+		13B9D0F1207E71BE00BCEC3E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13B9D0F2207E71BE00BCEC3E /* ParallaxImageView.swift */,
+				13B9D0F3207E71BE00BCEC3E /* ProgressDotView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		13E8D9382062A70700EFD17F = {
+			isa = PBXGroup;
+			children = (
+				1345A968208F88F60043FAC4 /* Sources */,
+				13E8D9432062A70700EFD17F /* Parade-Demo */,
+				13E8D9562062A74C00EFD17F /* Resources */,
+				13E8D9422062A70700EFD17F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13E8D9422062A70700EFD17F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13E8D9412062A70700EFD17F /* Parade-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13E8D9432062A70700EFD17F /* Parade-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				13B9D0E9207E71BE00BCEC3E /* ParallaxImageViewController.swift */,
+				13E8D9572062A75E00EFD17F /* AppDelegate.swift */,
+				1367CE042088E04F00F3D2A5 /* PagingCollectionViewFlowLayout.swift */,
+				13B9D0EA207E71BE00BCEC3E /* ParallaxCells */,
+				13E8D9692062A7A400EFD17F /* Extensions */,
+			);
+			path = "Parade-Demo";
+			sourceTree = "<group>";
+		};
+		13E8D9562062A74C00EFD17F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13EDEB9420755B1400622FC8 /* Assets.xcassets */,
+				13E8D94D2062A70700EFD17F /* LaunchScreen.storyboard */,
+				13E8D9502062A70700EFD17F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		13E8D9692062A7A400EFD17F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				134AC36F20634D1E00A4DC19 /* UIColor+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13E8D9402062A70700EFD17F /* Parade-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E8D9532062A70700EFD17F /* Build configuration list for PBXNativeTarget "Parade-Demo" */;
+			buildPhases = (
+				13E8D93D2062A70700EFD17F /* Sources */,
+				13E8D93E2062A70700EFD17F /* Frameworks */,
+				13E8D93F2062A70700EFD17F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Parade-Demo";
+			productName = "ScrollWeaver-Demo";
+			productReference = 13E8D9412062A70700EFD17F /* Parade-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13E8D9392062A70700EFD17F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ELEPHANT;
+				TargetAttributes = {
+					13E8D9402062A70700EFD17F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 13E8D93C2062A70700EFD17F /* Build configuration list for PBXProject "Parade-Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13E8D9382062A70700EFD17F;
+			productRefGroup = 13E8D9422062A70700EFD17F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13E8D9402062A70700EFD17F /* Parade-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13E8D93F2062A70700EFD17F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13EDEB9520755B1400622FC8 /* Assets.xcassets in Resources */,
+				13E8D94F2062A70700EFD17F /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13E8D93D2062A70700EFD17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1345A980208F88F70043FAC4 /* UIScrollView+Parade.swift in Sources */,
+				13B9D0F9207E71BE00BCEC3E /* ParallaxScaleCollectionViewCell.swift in Sources */,
+				13B9D0F7207E71BE00BCEC3E /* ParallaxImageCollectionViewCell.swift in Sources */,
+				134AC37020634D1F00A4DC19 /* UIColor+Hex.swift in Sources */,
+				1367CE052088E04F00F3D2A5 /* PagingCollectionViewFlowLayout.swift in Sources */,
+				1345A979208F88F70043FAC4 /* PDAnimatableProperty.swift in Sources */,
+				1345A97F208F88F70043FAC4 /* CoreGraphics+Parade.swift in Sources */,
+				13B9D0FD207E71BE00BCEC3E /* ProgressDotView.swift in Sources */,
+				13E8D9612062A75E00EFD17F /* AppDelegate.swift in Sources */,
+				1345A97C208F88F70043FAC4 /* PDAnimationMaker.swift in Sources */,
+				1345A981208F88F70043FAC4 /* UIView+Parade.swift in Sources */,
+				13B9D0FA207E71BE00BCEC3E /* ParallaxTheEndCollectionViewCell.swift in Sources */,
+				13B9D0FC207E71BE00BCEC3E /* ParallaxImageView.swift in Sources */,
+				13B9D0F5207E71BE00BCEC3E /* ParallaxImageViewController.swift in Sources */,
+				1345A97A208F88F70043FAC4 /* PDAnimator.swift in Sources */,
+				13B9D0FB207E71BE00BCEC3E /* ParallaxIntroCollectionViewCell.swift in Sources */,
+				1345A97D208F88F70043FAC4 /* PDAnimationViewMaker.swift in Sources */,
+				1345A97E208F88F70043FAC4 /* PDDefinitions.swift in Sources */,
+				1345A97B208F88F70043FAC4 /* PDAnimatablePropertyMaker.swift in Sources */,
+				13B9D0F6207E71BE00BCEC3E /* ParallaxImageAppearCollectionViewCell.swift in Sources */,
+				1345A978208F88F70043FAC4 /* PDAnimationViewState.swift in Sources */,
+				13B9D0F8207E71BE00BCEC3E /* ParallaxDoubleImageCollectionViewCell.swift in Sources */,
+				1345A977208F88F70043FAC4 /* PDAnimationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13E8D94D2062A70700EFD17F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13E8D94E2062A70700EFD17F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13E8D9512062A70700EFD17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13E8D9522062A70700EFD17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13E8D9542062A70700EFD17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQAUP4LZJV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helloelephant.Parade-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		13E8D9552062A70700EFD17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WQAUP4LZJV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.helloelephant.Parade-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13E8D93C2062A70700EFD17F /* Build configuration list for PBXProject "Parade-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E8D9512062A70700EFD17F /* Debug */,
+				13E8D9522062A70700EFD17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E8D9532062A70700EFD17F /* Build configuration list for PBXNativeTarget "Parade-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E8D9542062A70700EFD17F /* Debug */,
+				13E8D9552062A70700EFD17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13E8D9392062A70700EFD17F /* Project object */;
+}

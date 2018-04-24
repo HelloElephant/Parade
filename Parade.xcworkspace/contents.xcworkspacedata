@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Sources"
+      name = "Sources">
+      <FileRef
+         location = "group:PDDefinitions.swift">
+      </FileRef>
+      <Group
+         location = "group:Parade"
+         name = "Parade">
+         <FileRef
+            location = "group:PDAnimator.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PDAnimationView.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PDAnimationViewState.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PDAnimatableProperty.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:ParadeMaker"
+         name = "ParadeMaker">
+         <FileRef
+            location = "group:PDAnimationMaker.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PDAnimationViewMaker.swift">
+         </FileRef>
+         <FileRef
+            location = "group:PDAnimatablePropertyMaker.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:ParadeExtensions"
+         name = "ParadeExtensions">
+         <FileRef
+            location = "group:CoreGraphics+Parade.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIScrollView+Parade.swift">
+         </FileRef>
+         <FileRef
+            location = "group:UIView+Parade.swift">
+         </FileRef>
+      </Group>
+   </Group>
+   <FileRef
+      location = "group:Parade/Parade.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Parade-Demo/Parade-Demo.xcodeproj">
+   </FileRef>
+</Workspace>
