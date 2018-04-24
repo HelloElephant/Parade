@@ -373,4 +373,4 @@ func configuredAnimator() -> PDAnimator {
 
 ## License
 
-*Parade is released under the MIT license. See [License](/LICENSE.md) for details.*
+*Parade is released under the MIT license. See [License](https://github.com/HelloElephant/Parade/blob/master/LICENSE) for details.*
