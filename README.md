@@ -28,7 +28,7 @@ There is a demo app included as part of the project that contains the following 
 
 |  | Included Examples |
 | ------------- | ------------- |
-|![alt tag](/Documentation/assets/08_animated_demo.gif?raw=true)<br/>|The demo contains a single ``ParallaxImageViewController`` as the root, and displays these cells as examples in the following order:<br/><br/>- ``ParallaxIntroCollectionViewCell`` : Scale / Transform / Alpha<br/><br/>- ``ParallaxScaleCollectionViewCell`` : Scale / Center<br/><br/>- ``ParallaxDoubleImageCollectionViewCell`` : Center / Transform<br/><br/>- ``ParallaxImageAppearCollectionViewCell`` : Animation Chain Parallax<br/><br/>- ``ParallaxImageCollectionViewCell`` : Scale / Alpha / Transform <br/><br/>- ``ParallaxTheEndCollectionViewCell`` : Transform 3D<br/><br/><br/>Note: The examples also  contain custom ranges discussed later in the documentation.<br/><br/><br/><br/><br/><br/><br/><br/>|
+|![alt tag](/Documentation/assets/08_animated_demo.gif?raw=true)|The demo contains a single ``ParallaxImageViewController`` as the root, and displays these cells as examples in the following order:<br/><br/>- [``ParallaxIntroCollectionViewCell``](https://github.com/HelloElephant/Parade/blob/master/Parade-Demo/Parade-Demo/ParallaxCells/ParallaxIntroCollectionViewCell.swift) : Scale / Transform / Alpha<br/><br/>- [``ParallaxScaleCollectionViewCell``](https://github.com/HelloElephant/Parade/blob/master/Parade-Demo/Parade-Demo/ParallaxCells/ParallaxScaleCollectionViewCell.swift) : Scale / Center<br/><br/>- [``ParallaxDoubleImageCollectionViewCell``](https://github.com/HelloElephant/Parade/blob/master/Parade-Demo/Parade-Demo/ParallaxCells/ParallaxDoubleImageCollectionViewCell.swift) : Center / Transform<br/><br/>- [``ParallaxImageAppearCollectionViewCell``](https://github.com/HelloElephant/Parade/blob/master/Parade-Demo/Parade-Demo/ParallaxCells/ParallaxImageAppearCollectionViewCell.swift) : Animation Chain Parallax<br/><br/>- [``ParallaxImageCollectionViewCell``](https://github.com/HelloElephant/Parade/blob/master/Parade-Demo/Parade-Demo/ParallaxCells/ParallaxImageCollectionViewCell.swift) : Scale / Alpha / Transform <br/><br/>- [``ParallaxTheEndCollectionViewCell``](https://github.com/HelloElephant/Parade/blob/master/Parade-Demo/Parade-Demo/ParallaxCells/ParallaxTheEndCollectionViewCell.swift) : Transform 3D<br/><br/>Note: The examples also  contain custom ranges discussed later in the documentation.<br/>|
 
 
 # Installation
@@ -41,6 +41,7 @@ There is a demo app included as part of the project that contains the following 
 
 - If you **found a bug**, or **have a feature request**, open an issue.
 - If you **want to contribute**, review the [Contribution Guidelines](/Documentation/CONTRIBUTING.md), and submit a pull request.
+- All contributions must retrain **100%** Code Coverage
 
 # Basic Use
 
