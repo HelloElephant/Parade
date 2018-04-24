@@ -10,7 +10,8 @@
 
 # Introduction
 
-Communicating to cells inside of UICollectionViews, UITableViews, or UIScrollViews has always been a challenge. From experience it almost always relies on a messy endeavor trying to relay the scrolling progress to cells in triggering special scrolling effects. The intent of this framework is to minimize the effort needed to animate views by providing an easy to us way to define view states, from where they will appear from, and where they will disappear to using a simple blocks-based builder.
+Communicating to cells inside of UICollectionViews, UITableViews, or UIScrollViews, has always been a challenge. It almost always relies on a messy process of trying to relay the scroll to progress to cells in triggering special scrolling effects. We’ve designed this framework to minimize the effort needed to animate views. With a simple blocks-based builder we’ve made it easy to define view states—**from** where they appear and where they will disappear **to**.
+
 <p align="center">
   <img align="center"  src="/Documentation/assets/03_state_changes_intro.png?raw=true"/>
   </p>
