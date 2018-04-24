@@ -56,7 +56,7 @@ Before beginning to create animations, consider the following diagram, just to g
 
 ![alt tag](/Documentation/assets/02_all_ranges.png?raw=true)
 
-**NOTE :** You have some control to adjust these ranges, and instructions can be found in the *Bounding Progress Range* section below.
+**NOTE :** There is control to adjust these ranges, and instructions can be found in the *Bounding Progress Range* section below.
 
 ## Initialization
 
@@ -85,11 +85,11 @@ Any of the following views, and their subviews, can implement the ``PDAnimatable
 - `UITableViewCell`
 - `UIScrollView`'s subviews
 
-But before it can communicate the progress we need to define an animator with the relative scroll direction that it the scrollview will be tracking against. Bundled with the framework is recursive blocks based builder, that allows for simple creation of complex animations to interpolate against while scrolling.
+But before the scrollview can communicate the progress, define an animator with the relative scroll direction that the scrollview will be tracking against. Bundled with the framework is recursive blocks based builder, that allows for simple creation of complex animations to interpolate against while scrolling.
 
 #### Vertical Direction Scroll Animator
 
-The following is an example to create a vertical animator if the scroll will has a vertical scrolling direction. The closure returns an animator that can be used to create from, and to, state for any specific view within the hierarchy.
+The following is an example to create a vertical animator for scrolling vertically. The closure returns an animator that can be used to create from, and to, state for any specific view within the hierarchy.
 
 ```swift
 func configuredAnimator() -> PDAnimator {
@@ -102,7 +102,7 @@ func configuredAnimator() -> PDAnimator {
 ```
 #### Horizontal Direction Scroll Animator
 
-The following is an example to create a horizontal animator if the scroll will has a horizontal scrolling direction. The closure returns an animator that can be used to create from, and to, state for any specific view within the hierarchy.
+The following is an example to create a horizontal animator for scrolling horizontally. The closure returns an animator that can be used to create from, and to, state for any specific view within the hierarchy.
 
 ```swift
 func configuredAnimator() -> PDAnimator {
@@ -157,7 +157,7 @@ func configuredAnimator() -> PDAnimator {
 
 #### Configure Start & End State
 
-Building on the prior example, it appears that the appearing and disappearing alpha is the same. In the case both values start, and end state are the same, we can use the `startEndState(for:)` method to set the value for both states simultaneously.
+Building on the prior example, it appears that the appearing and disappearing alpha is the same. In the case both **start**, and **end** state values are the same, use the `startEndState(for:)` method to set the value for both states simultaneously.
 
 ```swift
 func configuredAnimator() -> PDAnimator {
@@ -229,7 +229,7 @@ public func transform3D(_ value : CATransform3D)   -> PDAnimatablePropertyMaker
 public func zPosition(_ value : CGFloat)           -> PDAnimatablePropertyMaker
 ```
 
-In the case you a setter is not defined, and there is a need to set a specific property to interpolate between, there are two define setters that use KVC for views, and/or, their backing layer accordingly.
+In the case a setter is not defined, and there is a need to set a specific property to interpolate between, there are two defined setters that use KVC for views, and/or, their backing layer accordingly.
 
 ```swift
 public func viewValue(_ value : Any?, forKey key : String)    -> PDAnimatablePropertyMaker
@@ -237,7 +237,7 @@ public func layerValue(_ value : Any?, forKey key : String)   -> PDAnimatablePro
 ```
 #### Parametric Easing
 
-There are 46 different parametric curves that can be applied to the interpolation of uniquely per property. The framework comes bundled with the following supported parametric curves that you can apply to each property individually.
+There are 46 different parametric curves that can be applied to the interpolation of uniquely per property. The framework comes bundled with the following supported parametric curves that can be applied to each property individually.
 
 <table>
   <tbody>
@@ -306,7 +306,7 @@ There are 46 different parametric curves that can be applied to the interpolatio
   </tbody>
 </table>
 
-Just append it to the state's property definition while building your state for a view. A good reference for some of the supported parametric curves can be found [here](http://easings.net/)
+Just append it to the state's property definition while building the view's state. A good reference for some of the supported parametric curves can be found [here](http://easings.net/)
 
 ```swift
 func configuredAnimator() -> PDAnimator {
@@ -327,9 +327,9 @@ func configuredAnimator() -> PDAnimator {
 
 #### Chaining Animations
 
-Animation progress does not have to apply only to the top level view that is being scrolled. If a subview implements the ``PDAnimatableType``, and is is part of the subview hierarchy, we can attach  to the animator and create a chain.
+Animation progress does not have to apply only to the top level view that is being scrolled. If a subview implements the ``PDAnimatableType``, and is part of the subview hierarchy, attaching it to the animator can create a chain.
 
-The animator will then communicate the progress to the subview's animator, you can attach subviews of subviews, or even have the subviews attach to their subviews, and then create chains that can traverse multiple levels in the end to make some fun effects. To attach an animatable view, call the `attachAnimatableView(:)` method as follows.
+The animator will then communicate the progress to the subview's animator, subviews can be attached to subviews, or even have the subviews attach to their subviews, to create chains that can traverse multiple levels in the end to make some fun effects. To attach an animatable view, call the `attachAnimatableView(:)` method as follows.
 
 ```swift
 func configuredAnimator() -> PDAnimator {
@@ -348,11 +348,11 @@ func configuredAnimator() -> PDAnimator {
 
 #### Bounding Progress Range
 
-There is sometimes a need to adjust where the progress actually takes place. This is especially useful in the case an animatable view is smaller than the bounding size of the scrollview. Observe the examples of the ranges defined, and how it effects the progress. By defining a range, this is basically telling the scrollview where the progress counts from 0 to 100.
+There is sometimes a need to adjust where the progress actually takes place. This is especially useful when animatable view is smaller than the bounding size of the scrollview. Observe the examples of the ranges defined, and how it effects the progress. By defining a range, this is basically telling the scrollview where the progress counts from 0 to 100.
 
 ![alt tag](/Documentation/assets/03_range_progress.png?raw=true)
 
-Ranges can be defined on a per property basis just like easing, thus allowing for different properties interpolating over different coordinate spaces. The following example defines two different ranges for each property, and can visually be referenced above as to where the interpolation will take place.
+Ranges can be defined on a per property basis just like easing – thus allowing for different properties interpolating over different coordinate spaces. The following example defines two different ranges for each property, and can visually be referenced above as to where the interpolation will take place.
 
 
 ```swift
