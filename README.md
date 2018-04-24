@@ -1,12 +1,11 @@
 # Parade
 
-[![Cocoapods Compatible](https://img.shields.io/badge/pod-v1.0.0-blue.svg)]()
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)]()
-[![Platform](https://img.shields.io/badge/platform-ios%20%7C%20tvos-lightgrey.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-343434.svg)]()
-
 [![Build Status](https://travis-ci.org/HelloElephant/Parade.svg?branch=master)](https://travis-ci.org/HelloElephant/Parade)
 [![codecov.io](https://codecov.io/gh/HelloElephant/Parade/branch/master/graphs/badge.svg)](https://codecov.io/gh/HelloElephant/Parade/branch/master)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)]()
+[![Cocoapods Compatible](https://img.shields.io/badge/pod-v1.0.0-blue.svg)]()
+[![Platform](https://img.shields.io/badge/platform-ios%20%7C%20tvos-lightgrey.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-343434.svg)]()
 
 # Introduction
 
