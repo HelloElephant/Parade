@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/license-MIT-343434.svg)]()
 
 [![Build Status](https://travis-ci.org/HelloElephant/Parade.svg?branch=master)](https://travis-ci.org/HelloElephant/Parade)
-[![codecov.io](https://codecov.io/gh/HelloElephant/HelloElephant/branch/master/graphs/badge.svg)](https://codecov.io/gh/HelloElephant/HelloElephant/branch/master)
+[![codecov.io](https://codecov.io/gh/HelloElephant/Parade/branch/master/graphs/badge.svg)](https://codecov.io/gh/HelloElephant/Parade/branch/master)
 
 # Introduction
 
