@@ -48,11 +48,11 @@ There is a demo app included as part of the project that contains the following 
 
 # Basic Use
 
-At the core, the basic concept behind this framework is to define **start** an **end** state for your animatable views, and the scroll view will interpolate between the states accordingly. The **start** state defines where you want your views appear from when they scroll onto the screen, while the **end** state defines where you want your views to disappear to when scrolling off the screen.
+At its core, this framework defines **start** and **end** states for your animatable views—with the scroll view interpolating between the states accordingly. The **start** state defines where views appear from as they scroll onto screen—while **end** state defines where views will disappear.
 
-The only requirement, other than defining the states, is to implement the ``PDAnimatableType`` on views to animate, and everything else should be seamless. Each `Parade` consists a **start**, and / or, **end** state defined by the developer, plus a **snapshot** state that is automatically configured the first time the scroll view begins to scroll.
+The only requirements beyond defining the states is to implement the PDAnimatableType on views to animate, the rest is seamless. Each animation consists of a **start** or **end** state which is defined by the developer—plus a **snapshot** state that is automatically configured the first time the view begins to scroll.
 
-Before beginning to create animations, consider the following diagram, just to get a sense of the coordinate space that the progress is calculated against. The progress is relative to the bounds of the scrollview itself, when scrolling horizontally, the difference in x value to the center point of the view port for the appearing/disappearing view is equal to the width scrollview itself, just as the difference in y value when scrolling vertically demonstrated below.
+Before creating, consider the diagram below to get a sense of the coordinate space that the progress is calculated against. Progress is relative to the bounds of the scrollview itself. When scrolling horizontally—the difference in X value to the center point of the viewport is equal to the width of the scrollview itself. Just as the difference in Y value when scrolling vertically, as demonstrated below.
 
 
 ![alt tag](/Documentation/assets/02_all_ranges.png?raw=true)
