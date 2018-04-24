@@ -2,7 +2,7 @@
 
 ### Manual Install
 
-1. Clone [Parade](https://github.com/HelloElephant/Parade.git) repositories
+1. Clone the [Parade](https://github.com/HelloElephant/Parade.git) repository
 2. Add the contents of ***/Parade/Sources/***
 
 
