@@ -60,7 +60,7 @@ Before beginning to create animations, consider the following diagram, just to g
 
 ## Initialization
 
-Initialize the ParallaxKit in ``application(:didFinishLaunchingWithOptions:)`` when the application is launched. Once initialized, the base UIScrollView will begin communicating scrolling progress to animatable views contained within.
+Initialize the Parade in ``application(:didFinishLaunchingWithOptions:)`` when the application is launched. Once initialized, the base UIScrollView will begin communicating scrolling progress to animatable views contained within.
 
 ```swift
 UIScrollView.initializeParade()
