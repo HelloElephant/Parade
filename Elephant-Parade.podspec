@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "Parade"
+  s.name         = "Elephant-Parade"
   s.version      = "1.0.0"
   s.summary      = "iOS Parallax Scroll-Jacking Effects Engine"
   s.homepage     = "https://github.com/HelloElephant/Parade"

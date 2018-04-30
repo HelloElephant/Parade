@@ -12,7 +12,7 @@
 1. Edit the project's podfile, and save
 
 ```
-pod 'Parade', :git => 'https://github.com/HelloElephant/Parade.git', :tag => '1.0.0'
+pod 'Elephant-Parade', :git => 'https://github.com/HelloElephant/Parade.git', :tag => '1.0.0'
 ```
 2. Install Parade by running
 
